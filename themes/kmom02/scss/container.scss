@@ -1,0 +1,38 @@
+html,
+.body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: $main-background;
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 10;
+  padding: 10;
+  background-color: $background-alternative-color;
+}
+
+.main {
+  flex: 1 0 auto;
+  background-color: $background-color;
+}
+
+header,
+.footer {
+  flex: 0 0 auto;
+}
+
+
+.main {
+  width: 100%;
+  max-width: 64rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 25%;
+}
+
